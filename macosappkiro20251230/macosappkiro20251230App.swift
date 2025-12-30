@@ -12,6 +12,8 @@ struct macosappkiro20251230App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 1200, minHeight: 800)
         }
+        .windowResizability(.contentSize)
     }
 }
